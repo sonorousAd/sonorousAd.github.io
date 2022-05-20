@@ -1,0 +1,144 @@
+<!DOCTYPE HTML>
+<!--
+	Portfolio page For Adrian Morillo
+    No template used
+-->
+<html>
+	<head>
+		<title>Adrian Morillo Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width , initial-scale =1" />
+       
+        <!-- BOOTSTRAP -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" href="Includes/css/main.css" />
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	</head>
+    
+	<body id="mainbody">
+
+        <div class="container-fluid" id="section1">
+            <div class="row">
+                <div class="col-lg-1 col-md-1 col-sm-0 col-xs-0"></div>
+                <div class="col-lg-10 col-md-10 col-sm-12 col-xs-0 text-center">
+                    <div id="mainpg-name"> Adrian Morillo</div>
+                    <div id="mainpg-personalinfo">Computer Scientist & Data Analyst</div>
+                                    <nav id="mainpg-nav">
+                                        <a href="https://www.linkedin.com/in/adrian-morillo" target="_blank"><img src="Includes/imgs/LinkedIinLogo.png" class="logolinks"  alt="LinkedIn" id="LinkedInLogo"> </a> 
+                                        <a href="https://github.com/sonorousAd" target="_blank"> <img src="Includes/imgs/GitLogoT.png" alt="Git Logo" class="logolinks" id="GitLogo" > </a>
+                                        <a href="mailto:adrianmorilloq@outlook.com"><img src="Includes/imgs/mail3.png" class="logolinks" alt="Mail" ></a>    
+                                    </nav>
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-0 col-xs-0"></div>
+            </div>
+        </div>
+
+
+        <!--Projects -->
+
+        <div class="container-fluid" id="section2">
+            <div class="row">
+                <div class="col-md-5">
+                    <h1>0.1</h1>
+                    <h2 class="project-title">Minecraft Educational</h2>
+                    <p class="project-info">
+                        Project with Microsoft to implement a platform where kids can learn about machine learning and artificial intelligence concepts
+                        through the game 'Minecraft Education'
+                    </p>
+                    <img src="Includes/imgs/css-logo.png" class="css-logo">
+                    <img src="Includes/imgs/html-logo.png" class="html-logo">
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-6">
+                    <a href="https://github.com/Nathan-Nesbitt/Minecraft_AI" target="_blank">
+                        <img src="Includes/imgs/Minecraft.png" alt="ProjectImage" class="projimg">                    
+                    </a>
+                </div>
+            </div>
+        </div> 
+
+        <div class="container-fluid" id="section3">
+            <div class="row">
+                <div class="col-md-6">
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+                        <div class="carousel-inner">
+                          
+                            <div class="carousel-item active">
+                                <a href="https://sonorousad.github.io/ShopSubmission/" target="_blank">
+                                    <img class="d-block w-100" src="Includes/imgs/OpenAI.png" alt="First slide" id="openAI-img">
+                                </a>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="https://github.com/sonorousAd/ReactApp" target="_blank">
+                                    <img class="d-block w-100" src="Includes/imgs/rickandm.png" alt="Second slide" id="rym-img">
+                                </a>
+                            </div>
+                        </div>
+
+                        <a onclick="changeText()" class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a onclick="changeText()" class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                      </div>
+                   
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-5 text-right rgt-section">
+                    <h1>0.2</h1>
+                    <h2 class="project-title text-right">React Applications</h2>
+                    <script>
+                        function changeText(){
+                            let txt1 = "Fun with AI React App sends plain text prompts from the user to the OpenAI API and displays the results in an ordered list";
+                            let txt2 = "React App fetches data from an API and allows the user to search and get information about their favorite Rick and Morty characters"
+                            const desc = document.getElementById("description");
+                            (desc.innerText === txt1) ? desc.innerHTML=txt2:desc.innerHTML=txt1;
+                        }
+                    </script>
+                    <p class="project-info text-rigth" id="description">
+                        Fun with AI React App sends plain text prompts from the user to the OpenAI API and displays the results in an ordered list
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid" id="section4">
+            <div class="row">
+                <div class="col-md-5">
+                    <h1>0.3</h1>
+                    <h2 class="project-title">NFT website</h2>
+                    <p class="project-info">
+                        
+                    </p>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-6">
+                    <img src="Includes/imgs/TropicalBimg.png" alt="ProjectImage" class="projimg">                    
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid" id="section5">
+            <div class="row">
+                <div class="col-md-6">
+                    <a href="https://github.com/sonorousAd/PriceCheckR-website" target="_blank">    
+                        <img src="Includes/imgs/ProceCHRr.png" alt="ProjectImage" class="projimg">      
+                    </a>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-5">
+                    <h1>0.3</h1>
+                    <h2 class="project-title">Price CheckR</h2>
+                    <p class="project-info">
+                        A website that finds the cheapest products from given stores using a web scraper, stores them on a database, retrieves the requested items, and sorts them accordingly.
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+	</body>
+</html> 

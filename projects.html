@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+    <!--This sets width to device wotdh -->
+    <meta name="viewport" content="width = device-width , initial-scale=1">
+    
+	<title>Projects</title>
+    
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="Includes/css/main.css" />
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+
+<body id="projbody">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <a href="index.html"><img src="Includes/imgs/home2.png" id="homeIcon2" alt="home2"></a>
+                <div id="titlepersonal"> Some of My Projects</div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item active ">
+                        <!-- Title could go here -->
+                        <div class="text-center">
+                            <a href="https://github.com/Nathan-Nesbitt/Minecraft_AI" target="_blank">
+                                <img src="Includes/imgs/minelogo-removebg-preview.png" class="projImgs" id="mineimg" alt="minelogo">
+                            </a>
+                        </div>
+                        <div class="carousel-caption tt">
+                            <p>An add-on to 'Minecraft Education' allowing users to generate machine learning and AI models</p>
+                            <p>that can predict and manipulate the game</p>
+                        </div>
+                    </div>
+                    <div class="item ">
+                        <p class="text-center">
+                            <a href="https://devpost.com/software/myuni" target="_blank">
+                                <img src="Includes/imgs/logo_center.png" class="projImgs " id="myuniimg" alt="MyUniimg">
+                            </a>
+                        </p>
+                        <div class="carousel-caption tt">
+                            <p>
+                                Web Platform that provides diverse features to university students
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="item ">
+                        <p class="text-center">
+                            <a href="https://github.com/sonorousAd/PriceCheckR-website" target="_blank">
+                                <img src="Includes/imgs/PriceChrkrimg.png" class="projImgs " id="priceCimg" alt="priceChecker">
+                            </a>
+                        </p> 
+                        <div class="carousel-caption tt">
+                           <p>A fully integrated website that finds the cheapest product from given stores</p>
+                    </div>
+                </div>
+
+                    <div class="item ">
+                        <p class="text-center">
+                            <a href="https://github.com/sonorousAd/ReactApp" target="_blank">
+                                <img src="Includes/imgs/R&M.png" class="projImgs " id="rymimg" alt="React app project">
+                            </a>
+                        </p>
+                        <div class="carousel-caption tt">
+                            <p>
+                                React App that fetches JSON data from an API and manipulates it
+                            </p>
+                        </div>
+                    </div>
+                
+                </div>
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev" id="lftcrslcntl">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next" id="rgtcrslcntl">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
