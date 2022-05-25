@@ -166,11 +166,11 @@ body{
 }
 
 .projimg{
-    height: 400px;
-    width: 600px;
+    height: 405px;
+    width: 605px;
     opacity: 0.9;
     border: 5px solid bisque;
-    margin-top: 5vh;
+    margin-top: 20vh;
     border-radius: 2vh;
 }
 .projimg:hover{
@@ -204,6 +204,42 @@ body{
     margin-top: -0.65vh;
     height: 13.2vh;
     margin-left: -4vh;
+}
+.bootstrap-logo{
+    margin-top: 0.8vh;
+    height: 6.2vh;
+    margin-left: -2.5vh;
+}
+
+#other-projects-title{
+    
+    margin-top: 30vh;
+    font-size: 10vh;
+}
+#pricechkr-img{
+    margin-top: 1vh;
+    height: 32vh;
+    margin-bottom: 9vh;
+    
+}
+#pricechkr-img:hover{
+    height: 33vh;
+}
+.other-projects{
+    margin-top: 15vh;
+}
+#myuni-logo{
+    height: 40vh;
+    margin-left: 5vh;
+    
+}
+#myuni-logo:hover{
+    height: 41vh;
+    
+}
+#myuni-text{
+    margin-top: 2vh;
+    
 }
 /* --------------------------------------------------New Page Over------------------------------------ */
 
