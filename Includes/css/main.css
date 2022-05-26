@@ -179,6 +179,10 @@ body{
     border: 5px solid whitesmoke;
     
 }
+#tropical-img{
+    height: 70vh;
+    margin-top: 15vh;
+}
 #myCarousel{
     margin-top: 6vh;
 }
@@ -206,9 +210,38 @@ body{
     margin-left: -4vh;
 }
 .bootstrap-logo{
-    margin-top: 0.8vh;
-    height: 6.2vh;
+    margin-top: 0.7vh;
+    height: 6vh;
     margin-left: -2.5vh;
+}
+.python-logo{
+    height: 6vh;
+    margin-left: 1vh;
+    margin-top: 0.5vh;
+}
+.react-logo{
+    height: 6.5vh;
+    margin-left: -3.3vh;
+    margin-top: 0.5vh;
+}
+.api-logo{
+    height: 6.5vh;
+    margin-left: 0vh;
+    margin-top: 0.5vh;
+}
+.php-logo{
+    height: 9vh;
+    margin-left: 1vh;
+    margin-top: 0.5vh;
+}
+.maria-logo{
+    height: 10.5vh;
+    margin-top: 0.5vh;
+}
+.sql-logo{
+    height: 6vh;
+    margin-left: 1vh;
+    margin-top: 0.5vh;
 }
 
 #other-projects-title{
