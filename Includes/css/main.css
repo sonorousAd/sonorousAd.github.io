@@ -200,6 +200,10 @@ body{
     border: 5px solid bisque;
     border-radius: 2vh;
 }
+#rym-img:hover{
+    border: 5px solid whitesmoke;
+    border-radius: 2vh;
+}
 .css-logo{
     margin-top: 1vh;
     height: 8vh;
@@ -209,10 +213,15 @@ body{
     height: 13.2vh;
     margin-left: -4vh;
 }
+.js-logo{
+    height: 6vh;
+    margin-left: -3vh;
+    margin-top: 0.9vh;
+}
 .bootstrap-logo{
     margin-top: 0.7vh;
     height: 6vh;
-    margin-left: -2.5vh;
+    margin-left: 1vh;
 }
 .python-logo{
     height: 6vh;
@@ -221,7 +230,7 @@ body{
 }
 .react-logo{
     height: 6.5vh;
-    margin-left: -3.3vh;
+    margin-left: vh;
     margin-top: 0.5vh;
 }
 .api-logo{
@@ -243,10 +252,13 @@ body{
     margin-left: 1vh;
     margin-top: 0.5vh;
 }
+#uni-bootstrap-logo{
+    margin-left: -2.5vh;
+}
+
 
 #other-projects-title{
-    
-    margin-top: 30vh;
+    margin-top: 35vh;
     font-size: 10vh;
 }
 #pricechkr-img{
